@@ -30,15 +30,17 @@ You are ready to use our code!
 Example usage is inside the notebook `example.ipynb `.  
 The main code implementing the dynamics is `dyn.py`.
 
-In the example.ipynb file, we show the Unconstrained Vs. Contrained Vs. Clip
+In the example.ipynb file, we show the Unconstrained Vs. Contrained Vs. Clip:
  - Unconstrained: is the unconstrained method 
  - Contrained : is the Edge Capacity contraint of the method in [1]
  - Clip: a clipped version
 
-An example of topology of a synthetic network showing flows of all O-D pairs is depicted in
+An example of topology of a synthetic network with 50 nodes. Showing flows of all O-D pairs is depicted in
 <p align="center">
 <img src ="./images/topology.png"><br>
 </p>
+
+
 
 As a last step, the distribution of variable $\mu$ before and after the edge capacity is implemented for the above topologies:
 <p align="center">
