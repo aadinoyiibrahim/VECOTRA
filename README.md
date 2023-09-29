@@ -3,7 +3,7 @@
 <img src ="./images/repo_logo.png"><br>
 </p>
 
-# VECOTRA : VElocity COnstrained TRAnsport
+# VECOTRA : VElocity Constrained Optimal TRAnsport
 
 Python implementation of the constrained dynamics described in:
  - [1] Ibrahim, A.A.; Muehlebach, M.; De Bacco, C. (2023) *[Optimal transport with constraints: from mirror descent to classical mechanics](https://arxiv.org/abs/2309.04727)*. arXiv preprint arXiv:2309.04727.
@@ -24,11 +24,15 @@ python setup.py
 ```
 
 You are ready to use our code!
+Every file you need is included in this repository 
+<p align="center">
+<img src ="./images/structure.png"><br>
+</p>
 
 ### Usage example
 
 Example usage is inside the notebook `example.ipynb `.  
-The main code implementing the dynamics is `dyn.py`.
+The main code implementing the dynamics is `script/dyn.py`.
 
 In the example.ipynb file, we show the Unconstrained Vs. Contrained Vs. Clip:
  - Unconstrained: is the unconstrained method 
@@ -39,14 +43,13 @@ An example of topology of a synthetic network with 50 nodes. Showing flows of al
 <p align="center">
 <img src ="./images/topology.png"><br>
 </p>
-
-
-
-As a last step, the distribution of variable $\mu$ before and after the edge capacity is implemented for the above topologies:
+As a last step,here is the distribution of variable $\mu$ before and after the edge capacity is implemented for the above topologies:
 <p align="center">
 <img src ="./images/mu_behavior.png"><br>
 </p>
 
+## Contact
+For any issues or questions, feel free to contact us sending an email to abdullahi.ibrahim@tuebingen.mpg.de.
 ## License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
